@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000W\u0000h\u0000o\u0000 \u0000s\u0000a\u0000i\u0000d\u0000 \u0000t\u0000h\u0000a\u0000t\u0000?\u0000 \u0000T\u0000h\u0000e\u0000 \u0000G\u0000a\u0000m\u0000e\u0000\r\u0000 \u0000",
   "main": "index.js",
-  "workspaces":[
+  "workspaces": [
     "packages/*"
   ],
   "scripts": {
@@ -14,10 +14,13 @@
     "start": "npm run start:backend && npm run start:frontend",
     "start:who-said-that-backend": "cd packages/backend && npm run start",
     "start:who-said-that-frontend": "cd packages/frontend && npm run start",
-    "dev": "npm run dev:backend & npm run dev:frontend",
-    "dev:who-said-that-backend": "cd packages/backend && npm run dev",
-    "dev:who-said-that-frontend": "cd packages/frontend && npm run dev"
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd packages/backend && npm run dev",
+    "dev:frontend": "cd packages/frontend && npm run dev"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }

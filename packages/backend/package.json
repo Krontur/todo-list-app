@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000T\u0000o\u0000d\u0000o\u0000 \u0000L\u0000i\u0000s\u0000t\u0000 \u0000A\u0000p\u0000p\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.6"
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "nodemon": "3.1.0"
   }
 }
