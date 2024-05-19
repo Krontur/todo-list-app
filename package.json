@@ -8,9 +8,15 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build:who-said-that-backend && run build:who-said-that-frontend",
-    "build:who-said-that-backend": "cd packages/who-said-that-backend && npm run build",
-    "build:who-said-that-frontend": "cd packages/who-said-that-frontend && npm run build"
+    "build": "npm run build:backend && run build:frontend",
+    "build:who-said-that-backend": "cd packages/backend && npm run build",
+    "build:who-said-that-frontend": "cd packages/frontend && npm run build",
+    "start": "npm run start:backend && npm run start:frontend",
+    "start:who-said-that-backend": "cd packages/backend && npm run start",
+    "start:who-said-that-frontend": "cd packages/frontend && npm run start",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "dev:who-said-that-backend": "cd packages/backend && npm run dev",
+    "dev:who-said-that-frontend": "cd packages/frontend && npm run dev"
   },
   "author": "",
   "license": "ISC"
