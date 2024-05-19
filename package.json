@@ -1,11 +1,17 @@
 {
-    "name": "who-said-that",
-    "workspaces": [
-        "packages/*"
-    ],
-    "scripts": {
-        "build": "npm run build:who-said-that-backend && run build:who-said-that-frontend",
-        "build:who-said-that-backend": "cd packages/who-said-that-backend && npm run build",
-        "build:who-said-that-frontend": "cd packages/who-said-that-frontend && npm run build",
-    }
+  "name": "who-said-that",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000h\u0000o\u0000 \u0000s\u0000a\u0000i\u0000d\u0000 \u0000t\u0000h\u0000a\u0000t\u0000?\u0000 \u0000T\u0000h\u0000e\u0000 \u0000G\u0000a\u0000m\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "workspaces":[
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:who-said-that-backend && run build:who-said-that-frontend",
+    "build:who-said-that-backend": "cd packages/who-said-that-backend && npm run build",
+    "build:who-said-that-frontend": "cd packages/who-said-that-frontend && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
 }
