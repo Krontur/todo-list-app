@@ -9,9 +9,6 @@ const loadQuotes = require('./scripts/load.quotes');
 
 dotenv.config();
 
-console.log('MONGO_URI:', process.env.MONGO_URI);
-console.log('PORT:', process.env.PORT);
-
 const app = express();
 
 app.use(cors());

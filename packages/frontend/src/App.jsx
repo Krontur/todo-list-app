@@ -1,32 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react'
+//const dotenv = require('dotenv');
+import './App.css';
+import Game from './components/game/game.component';
+
+//dotenv.config()
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [game, setGame] = useState(false)
+
+  //fetch
+  const [quote, setQuote] = useState('')
+  const [character, setCharacter] = useState('')
+
+  const fetchQuote = async () => {
+      const response = await fetch('http://localhost:5000/api/quote')
+      const data = await response.json()
+      setQuote(data.quote)
+      setCharacter(data.character)
+  }
+
+  useEffect(() => {
+      fetchQuote()
+  }, [])
 
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src="/the_simpsons_logo.png" className="logo" alt="The Simpsons logo" />
       </div>
-      <h1>Vite + React</h1>
+      <h1>Who said that?</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setGame(true)}>
+          START
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        { game &&
+          <button onClick={() => {fetchQuote()}}>
+            NEXT
+          </button>
+        }
+        <div>
+          { game && 
+            <div>
+              <Game
+                quote={quote}
+              />
+            </div>
+          } 
+        </div>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Developed by Tur
       </p>
     </>
   )
