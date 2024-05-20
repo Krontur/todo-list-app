@@ -1,18 +1,17 @@
 import './game.component.css'
+import Character from '../character/character.component'
 
-const Game = ({ quote, characters }) => {
+const Game = ({ quote, characters, onResponse }) => {
 
     return(
         <>
             <h2>
                 {quote.quote}
             </h2>
-            <div className="characters">
-                {characters.map(character => (
-                    <div className='character' key={character._id} >
-                        <img src={`characters_images/${character.imagen}`} alt={character.nombre}/>
-                    </div>
-                ))}
+            <div className='characters'>{
+                characters.map(
+                    character => <Character key={character._id} character={character} onResponse={onResponse} />
+                )}
             </div>
         </>
     );
