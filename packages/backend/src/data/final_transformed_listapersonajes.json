@@ -5,7 +5,8 @@
         "nombre": "Abraham «Abe» Jebediah Simpson",
         "ocupación": "Jubilado",
         "primera": "Grampa and the kids",
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Abraham_Abe_Jebediah_Simpson.png"
     },
     {
         "alias": "Alex Withney",
@@ -13,7 +14,8 @@
         "nombre": "Alex Alexandra Withney",
         "ocupación": "Estudiante",
         "primera": "Lard of the Dance",
-        "voz": "Lisa_Kudrow"
+        "voz": "Lisa_Kudrow",
+        "imagen": "Alex_Alexandra_Withney.png"
     },
     {
         "alias": "Apu Nahasapeemapetilon",
@@ -21,7 +23,8 @@
         "nombre": "Apu Nahasapeemapetilon",
         "ocupación": "Dependiente del Kwik-E-Mart",
         "primera": "The Telltale Head",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Apu_Nahasapeemapetilon.png"
     },
     {
         "alias": "Barney Gumble",
@@ -29,15 +32,17 @@
         "nombre": "Barney Gumble",
         "ocupación": "Piloto de helicóptero, conductor de barredoras, astronauta",
         "primera": "«Simpsons Roasting on an Open Fire: The Simpson's Christmas Special»",
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Barney_Gumble.png"
     },
     {
         "alias": "Bart Simpson",
         "edad": "10",
-        "nombre": "Chris",
+        "nombre": "Bart Simpson",
         "ocupación": "Estudiante de la escuela primaria de Springfield",
         "primera": null,
-        "voz": "Nancy_Cartwright"
+        "voz": "Nancy_Cartwright",
+        "imagen": "Bart_Simpson.png"
     },
     {
         "alias": "Bola de nieve (Los Simpson)",
@@ -45,7 +50,8 @@
         "nombre": "Snowball V/Snowball II",
         "ocupación": null,
         "primera": "Bart Gets Hit By A Car",
-        "voz": null
+        "voz": null,
+        "imagen": "Snowball_V/Snowball_II.png"
     },
     {
         "alias": "Carl Carlson",
@@ -53,7 +59,8 @@
         "nombre": "Carl Carlson",
         "ocupación": "empleado de la Planta de energía nuclear de Springfield de nacionalidad islandesa",
         "primera": "Homer's Night Out.",
-        "voz": "Alex Désert"
+        "voz": "Alex Désert",
+        "imagen": "Carl_Carlson.png"
     },
     {
         "alias": "Clancy Wiggum",
@@ -61,7 +68,8 @@
         "nombre": "Clancy Wiggum",
         "ocupación": "Jefe de policía",
         "primera": "Homer's Odyssey.",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Clancy_Wiggum.png"
     },
     {
         "alias": "Cletus Spuckler",
@@ -69,7 +77,17 @@
         "nombre": "Cletus Spuckler",
         "ocupación": "Granjero",
         "primera": "Bart Gets an Elephant",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Cletus_Spuckler.png"
+    },
+    {
+        "alias": "Comic Book Guy",
+        "edad": null,
+        "nombre": "Tipo de la tienda de comics",
+        "ocupación": "Tendero",
+        "primera": null,
+        "voz": null,
+        "imagen": "Tipo_de_la_tienda_de_comics.png"
     },
     {
         "alias": "Dr. Nick Riviera",
@@ -77,7 +95,8 @@
         "nombre": "Nick Riviera",
         "ocupación": "Médico",
         "primera": "Bart_Gets_Hit_by_a_Car",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Nick_Riviera.png"
     },
     {
         "alias": "Duffman",
@@ -85,7 +104,8 @@
         "nombre": "Duffman",
         "ocupación": "Mascota de la Cerveza Duff.",
         "primera": "The City of Teziuyork vs. Homer Simpson",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Duffman.png"
     },
     {
         "alias": "Eddie y Lou",
@@ -93,7 +113,8 @@
         "nombre": "Eddie",
         "ocupación": "Oficial de policía",
         "primera": "There's No Disgrace Like Home",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Eddie.png"
     },
     {
         "alias": "Edna Krabappel",
@@ -101,15 +122,8 @@
         "nombre": "Edna Krabappel",
         "ocupación": "Profesora en la Escuela Primaria de Springfield.",
         "primera": "«Bart the Genius»",
-        "voz": "Marcia_Wallace"
-    },
-    {
-        "alias": "Escuela primaria de Springfield",
-        "edad": null,
-        "nombre": "Dewey Largo",
-        "ocupación": "Profesor de música en la Escuela Primaria de Springfield.",
-        "primera": "«Simpsons Roasting on an Open Fire»",
-        "voz": "Hank_Azaria"
+        "voz": "Marcia_Wallace",
+        "imagen": "Edna_Krabappel.png"
     },
     {
         "alias": "Fat Tony",
@@ -117,15 +131,17 @@
         "nombre": "Fat Tony",
         "ocupación": "Capo de la mafia de Springfield.",
         "primera": "Bart the Murderer",
-        "voz": "Joe Mantegna, Phil Hartman"
+        "voz": "Joe Mantegna, Phil Hartman",
+        "imagen": "Fat_Tony.png"
     },
     {
-        "alias": "Guidopolis",
+        "alias": "Frank Grimes",
         "edad": null,
-        "nombre": "Guidopolis",
-        "ocupación": null,
+        "nombre": "Frank Grimes",
+        "ocupación": "Operador de central nuclear",
         "primera": null,
-        "voz": null
+        "voz": null,
+        "imagen": "Frank_Grimes.png"
     },
     {
         "alias": "Hans Moleman",
@@ -133,7 +149,8 @@
         "nombre": "Hans Moleman",
         "ocupación": "exalcalde",
         "primera": "Principal Charming.",
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Hans_Moleman.png"
     },
     {
         "alias": "Herb Powell",
@@ -141,7 +158,8 @@
         "nombre": "Herbert Herb Anthony Powell",
         "ocupación": "Traductor de Bebés.",
         "primera": "Oh_Brother,_Where_Art_Thou%3F",
-        "voz": null
+        "voz": null,
+        "imagen": "Herbert_Herb_Anthony_Powell.png"
     },
     {
         "alias": "Homer Simpson",
@@ -149,7 +167,8 @@
         "nombre": "Homer J. Simpson",
         "ocupación": "Inspector de seguridad de la planta de energía nuclear de Springfield, en el sector 7-G",
         "primera": null,
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Homer_J._Simpson.png"
     },
     {
         "alias": "Jeff Albertson",
@@ -157,7 +176,8 @@
         "nombre": "Jeff Albertson",
         "ocupación": "Propietario de The Android's Dungeon & Baseball Card Shop",
         "primera": "Three_Men_and_a_Comic_Book",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Jeff_Albertson.png"
     },
     {
         "alias": "Jimbo Jones",
@@ -165,7 +185,8 @@
         "nombre": "Jimbo Jones",
         "ocupación": "Estudiante",
         "primera": "The Telltale Head",
-        "voz": "Pamela Hayden"
+        "voz": "Pamela Hayden",
+        "imagen": "Jimbo_Jones.png"
     },
     {
         "alias": "Joe Quimby",
@@ -173,7 +194,8 @@
         "nombre": "Joe Quimby",
         "ocupación": "Abogado, Alcalde de Springfield",
         "primera": "Bart Gets An F",
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Joe_Quimby.png"
     },
     {
         "alias": "Julius Hibbert",
@@ -181,7 +203,8 @@
         "nombre": "Julius Hibbert",
         "ocupación": "Médico",
         "primera": "Bart el temerario",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Julius_Hibbert.png"
     },
     {
         "alias": "Kang y Kodos",
@@ -189,7 +212,8 @@
         "nombre": "Kang",
         "ocupación": null,
         "primera": "Treehouse of Horror",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Kang.png"
     },
     {
         "alias": "Kent Brockman",
@@ -197,7 +221,8 @@
         "nombre": "Kent Brockman",
         "ocupación": "Periodista",
         "primera": "Krusty Gets Busted.",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Kent_Brockman.png"
     },
     {
         "alias": "Krusty el payaso",
@@ -205,7 +230,8 @@
         "nombre": "Krusty",
         "ocupación": "Payaso",
         "primera": null,
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Krusty.png"
     },
     {
         "alias": "Lenny Leonard",
@@ -213,7 +239,8 @@
         "nombre": "Lenny Lenford",
         "ocupación": "Empleado de la planta de energía nuclear de Springfield",
         "primera": "Life on the Fast Lane.",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Lenny_Lenford.png"
     },
     {
         "alias": "Lionel Hutz",
@@ -221,7 +248,8 @@
         "nombre": "Lionel Hutz",
         "ocupación": "Abogado, zapatero, vendedor de bienes raíces, y niñero",
         "primera": "Bart Gets Hit by a Car",
-        "voz": "Phil_Hartman"
+        "voz": "Phil_Hartman",
+        "imagen": "Lionel_Hutz.png"
     },
     {
         "alias": "Lisa Simpson",
@@ -229,7 +257,8 @@
         "nombre": "Lisa Marie Simpson",
         "ocupación": "Estudiante",
         "primera": "Good Night",
-        "voz": "Yeardley_Smith"
+        "voz": "Yeardley_Smith",
+        "imagen": "Lisa_Marie_Simpson.png"
     },
     {
         "alias": "Maggie Simpson",
@@ -237,7 +266,8 @@
         "nombre": "Ray",
         "ocupación": null,
         "primera": "En el corto Good Night en The Tracey Ullman Show",
-        "voz": "James_Earl_Jones"
+        "voz": "James_Earl_Jones",
+        "imagen": "Ray.png"
     },
     {
         "alias": "Marge Simpson",
@@ -245,7 +275,8 @@
         "nombre": "Marge Simpson",
         "ocupación": "varios oficios a lo largo de la serie",
         "primera": "Good Night",
-        "voz": "Julie_Kavner"
+        "voz": "Julie_Kavner",
+        "imagen": "Marge_Simpson.png"
     },
     {
         "alias": "Martin Prince",
@@ -253,7 +284,8 @@
         "nombre": "Martin Prince",
         "ocupación": "Estudiante",
         "primera": "Bart the Genius.",
-        "voz": "Russi_Taylor"
+        "voz": "Russi_Taylor",
+        "imagen": "Martin_Prince.png"
     },
     {
         "alias": "Milhouse Van Houten",
@@ -261,7 +293,8 @@
         "nombre": "Milhouse Van Houten",
         "ocupación": "Estudiante",
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Pamela_Hayden"
+        "voz": "Pamela_Hayden",
+        "imagen": "Milhouse_Van_Houten.png"
     },
     {
         "alias": "Moe Szyslak",
@@ -269,7 +302,8 @@
         "nombre": "Moe Szyslak",
         "ocupación": "Propietario y barman de La Taberna de Moe",
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Christopher_Collins"
+        "voz": "Christopher_Collins",
+        "imagen": "Moe_Szyslak.png"
     },
     {
         "alias": "Mona Simpson (Los Simpson)",
@@ -277,7 +311,8 @@
         "nombre": "Mona Simpson",
         "ocupación": "Activismo",
         "primera": "«Oh Brother, Where Art Thou?»",
-        "voz": "Maggie Roswell"
+        "voz": "Maggie Roswell",
+        "imagen": "Mona_Simpson.png"
     },
     {
         "alias": "Montgomery Burns",
@@ -285,7 +320,8 @@
         "nombre": "Charles Montgomery Burns",
         "ocupación": "Propietario de la Central nuclear de Springfield",
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Charles_Montgomery_Burns.png"
     },
     {
         "alias": "Ned Flanders",
@@ -293,7 +329,8 @@
         "nombre": "Nedward «Ned» Flanders",
         "ocupación": "Vendedor del Leftorium",
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Nedward_Ned_Flanders.png"
     },
     {
         "alias": "Nelson Muntz",
@@ -301,23 +338,8 @@
         "nombre": "Nelson Muntz",
         "ocupación": "Estudiante",
         "primera": "Bart the General",
-        "voz": "Nancy_Cartwright"
-    },
-    {
-        "alias": "North Haverbrook (Los Simpson)",
-        "edad": null,
-        "nombre": "North Haverbrook",
-        "ocupación": null,
-        "primera": null,
-        "voz": null
-    },
-    {
-        "alias": "Ogdenville",
-        "edad": null,
-        "nombre": "Ogdenville",
-        "ocupación": null,
-        "primera": null,
-        "voz": null
+        "voz": "Nancy_Cartwright",
+        "imagen": "Nelson_Muntz.png"
     },
     {
         "alias": "Otto Mann",
@@ -325,7 +347,8 @@
         "nombre": "Otto Mann",
         "ocupación": "Conductor de autobuses",
         "primera": "Homer's Odyssey.",
-        "voz": "Harry Shearer kvgyjcfyivt"
+        "voz": "Harry Shearer kvgyjcfyivt",
+        "imagen": "Otto_Mann.png"
     },
     {
         "alias": "Patty y Selma Bouvier",
@@ -333,7 +356,8 @@
         "nombre": "Selma Bouvier",
         "ocupación": "Departamento de Tráfico de Springfield",
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Julie_Kavner"
+        "voz": "Julie_Kavner",
+        "imagen": "Selma_Bouvier.png"
     },
     {
         "alias": "Profesor Frink",
@@ -341,15 +365,17 @@
         "nombre": "Professor Frink",
         "ocupación": "Profesor, científico e inventor",
         "primera": "Old Money",
-        "voz": "Hank_Azaria"
+        "voz": "Hank_Azaria",
+        "imagen": "Professor_Frink.png"
     },
     {
-        "alias": "Radioactive Man (Los Simpson)",
+        "alias": "Radioactivo Man",
         "edad": null,
-        "nombre": "Radioactive Man",
+        "nombre": "Radioactivo Man",
         "ocupación": "Superhéroe",
         "primera": "The Telltale Head",
-        "voz": null
+        "voz": null,
+        "imagen": "Radioactivo_Man.png"
     },
     {
         "alias": "Rainier Wolfcastle",
@@ -357,7 +383,8 @@
         "nombre": "Rainier Wolfcastle",
         "ocupación": "Político",
         "primera": "The Way We Was.",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Rainier_Wolfcastle.png"
     },
     {
         "alias": "Ralph Wiggum",
@@ -365,7 +392,8 @@
         "nombre": "Ralph Wiggum",
         "ocupación": "Estudiante",
         "primera": "Moaning Lisa.",
-        "voz": "Nancy_Cartwright"
+        "voz": "Nancy_Cartwright",
+        "imagen": "Ralph_Wiggum.png"
     },
     {
         "alias": "Reverendo Lovejoy",
@@ -373,7 +401,8 @@
         "nombre": "Timothy Lovejoy",
         "ocupación": "Reverendo de la Iglesia de Springfield.",
         "primera": "The Telltale Head.",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Timothy_Lovejoy.png"
     },
     {
         "alias": "Santa's Little Helper",
@@ -381,7 +410,8 @@
         "nombre": "Santa's Little Helper",
         "ocupación": null,
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Santa's_Little_Helper.png"
     },
     {
         "alias": "Seymour Skinner",
@@ -389,23 +419,17 @@
         "nombre": "Seymour Skinner",
         "ocupación": "Director de la Escuela Primaria de Springfield",
         "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Harry_Shearer"
+        "voz": "Harry_Shearer",
+        "imagen": "Seymour_Skinner.png"
     },
     {
-        "alias": "Shelbyville (Los Simpson)",
-        "edad": null,
-        "nombre": "Shelbyville",
-        "ocupación": null,
-        "primera": null,
-        "voz": null
-    },
-    {
-        "alias": "Sideshow Bob",
+        "alias": "Actor secundario Bob",
         "edad": null,
         "nombre": "David L. G.",
         "ocupación": "Actor secundario, homicida, ayudante de Krusty, alcalde.",
         "primera": "The Telltale Head",
-        "voz": "Kelsey_Grammer"
+        "voz": "Kelsey_Grammer",
+        "imagen": "David_L._G..png"
     },
     {
         "alias": "Troy McClure",
@@ -413,14 +437,25 @@
         "nombre": "Troy McClure",
         "ocupación": "Actor, presentador, showman televisivo.",
         "primera": "Homer Vs. Lisa And The 8th Commandment",
-        "voz": "Phil_Hartman"
+        "voz": "Phil_Hartman",
+        "imagen": "Troy_McClure.png"
     },
     {
-        "alias": "Willie (Los Simpson)",
+        "alias": "Waylon Smithers",
+        "edad": null,
+        "nombre": "Waylon Smithers",
+        "ocupación": "Mano derecha del Sr. Burns",
+        "primera": null,
+        "voz": null,
+        "imagen": "Waylon_Smithers.png"
+    },
+    {
+        "alias": "Willie",
         "edad": "50",
         "nombre": "Willie McDougal",
         "ocupación": "Jardinero y conserje de la Escuela Primaria de Springfield, exprofesor de natación",
         "primera": "Principal Charming",
-        "voz": "Dan_Castellaneta"
+        "voz": "Dan_Castellaneta",
+        "imagen": "Willie_McDougal.png"
     }
 ]
