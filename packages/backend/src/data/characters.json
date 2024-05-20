@@ -6,7 +6,7 @@
         "ocupación": "Jubilado",
         "primera": "Grampa and the kids",
         "voz": "Dan_Castellaneta",
-        "imagen": "Abraham_Abe_Jebediah_Simpson.png"
+        "imagen": "Abraham_Simpson.png"
     },
     {
         "alias": "Alex Withney",
@@ -45,13 +45,13 @@
         "imagen": "Bart_Simpson.png"
     },
     {
-        "alias": "Bola de nieve (Los Simpson)",
+        "alias": "Bola de nieve",
         "edad": null,
-        "nombre": "Snowball V/Snowball II",
+        "nombre": "Bola de nieve",
         "ocupación": null,
         "primera": "Bart Gets Hit By A Car",
         "voz": null,
-        "imagen": "Snowball_V/Snowball_II.png"
+        "imagen": "Bola_de_nieve.png"
     },
     {
         "alias": "Carl Carlson",
@@ -87,7 +87,7 @@
         "ocupación": "Tendero",
         "primera": null,
         "voz": null,
-        "imagen": "Tipo_de_la_tienda_de_comics.png"
+        "imagen": "Comic_Book_Guy.png"
     },
     {
         "alias": "Dr. Nick Riviera",
@@ -258,7 +258,7 @@
         "ocupación": "Estudiante",
         "primera": "Good Night",
         "voz": "Yeardley_Smith",
-        "imagen": "Lisa_Marie_Simpson.png"
+        "imagen": "Lisa_Simpson.png"
     },
     {
         "alias": "Maggie Simpson",
@@ -321,7 +321,7 @@
         "ocupación": "Propietario de la Central nuclear de Springfield",
         "primera": "Simpsons Roasting on an Open Fire",
         "voz": "Harry_Shearer",
-        "imagen": "Charles_Montgomery_Burns.png"
+        "imagen": "Montgomery_Burns.png"
     },
     {
         "alias": "Ned Flanders",
@@ -456,6 +456,6 @@
         "ocupación": "Jardinero y conserje de la Escuela Primaria de Springfield, exprofesor de natación",
         "primera": "Principal Charming",
         "voz": "Dan_Castellaneta",
-        "imagen": "Willie_McDougal.png"
+        "imagen": "Willie.png"
     }
 ]

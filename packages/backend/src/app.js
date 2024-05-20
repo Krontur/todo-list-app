@@ -4,8 +4,10 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 
 const quoteRoutes = require('./routes/quote.routes');
+const characterRoutes = require('./routes/character.routes');
 
 const loadQuotes = require('./scripts/load.quotes');
+const loadCharacters = require('./scripts/load.characters')
 
 dotenv.config();
 
@@ -15,10 +17,12 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api', quoteRoutes);
+app.use('/api', characterRoutes);
 
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log('Conectado a MongoDB'))
 .then(() => loadQuotes())
+.then(() => loadCharacters())
 .catch(err => console.log(err));
 
 app.get('/', (req, res) => {
