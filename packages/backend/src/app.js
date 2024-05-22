@@ -21,8 +21,12 @@ app.use('/api', characterRoutes);
 
 mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log('Conectado a MongoDB'))
-.then(() => loadQuotes())
-.then(() => loadCharacters())
+.then(() => { if(!process.env.NODE_ENV || process.env.NODE_ENV === 'development'){
+    loadQuotes()
+}})
+.then(() => { if(!process.env.NODE_ENV || process.env.NODE_ENV === 'development'){
+    loadCharacters()
+}})
 .catch(err => console.log(err));
 
 app.get('/', (req, res) => {
