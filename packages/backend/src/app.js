@@ -33,6 +33,12 @@ app.get('/', (req, res) => {
     res.send('Who said that? The Game');
 });
 
-app.listen(process.env.PORT, () => {
-    console.log(`Servidor iniciado en el puerto ${process.env.PORT}`);
-})
+// Solo escuchar en el puerto si no estamos en el entorno de Firebase Functions
+if (process.env.FUNCTION_NAME) {
+    const OUT_PORT = process.env.OUT_PORT || 5000;
+    app.listen(OUT_PORT, () => {
+        console.log(`Servidor iniciado en el puerto ${OUT_PORT}`);
+    })
+}
+
+module.exports = app;
