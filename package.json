@@ -1,28 +1,20 @@
 {
   "name": "who-said-that",
-  "private": "true",
-  "version": "1.0.0",
-  "main": "index.js",
-  "workspaces": [
-    "packages/*",
-    "functions"
-  ],
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "concurrently \"yarn build:backend\" \"yarn build:frontend\"",
-    "build:backend": "cd packages/backend && yarn build",
-    "build:frontend": "cd packages/frontend && yarn build",
-    "start": "concurrently \"yarn start:backend\" \"yarn start:frontend\"",
-    "start:backend": "cd packages/backend && yarn start",
-    "start:frontend": "cd packages/frontend && yarn start",
-    "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
-    "dev:backend": "cd packages/backend && yarn dev",
-    "dev:frontend": "cd packages/frontend && yarn dev",
-    "deploy": "yarn build && firebase deploy"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "prettier": "^3.2.5",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
   }
 }

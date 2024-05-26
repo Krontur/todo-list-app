@@ -1,9 +1,0 @@
-.character {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.character img {
-    height: 12vh;
-}
