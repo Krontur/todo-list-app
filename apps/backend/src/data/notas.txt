@@ -1,0 +1,1 @@
+https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset/data?select=simpsons_script_lines.csv
