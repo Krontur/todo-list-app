@@ -44,3 +44,6 @@ const OUT_PORT = process.env.OUT_PORT || 5000;
 app.listen(OUT_PORT, () => {
     console.log(`Servidor iniciado en el puerto ${OUT_PORT}`);
 })
+
+// Export the server object
+module.exports = app;
