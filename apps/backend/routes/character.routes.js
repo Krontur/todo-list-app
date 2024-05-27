@@ -1,7 +1,7 @@
-const express = require('express');
-const { getAllCharacters, createCharacter, updateCharacter, deleteCharacter, getRandomCharacter, getNRandomCharacters, getCharacterByAlias } = require('../controllers/character.controller');
+import { Router } from 'express';
+import { getAllCharacters, createCharacter, updateCharacter, deleteCharacter, getRandomCharacter, getNRandomCharacters, getCharacterByAlias } from '../controllers/character.controller';
 
-const router = express.Router();
+const router = Router();
 
 router.get('/characters', getAllCharacters);
 router.post('/characters', createCharacter);
@@ -11,4 +11,4 @@ router.get('/character', getRandomCharacter);
 router.get('/characters/:num', getNRandomCharacters);
 router.get('/character/:alias', getCharacterByAlias);
 
-module.exports = router;
+export default router;
