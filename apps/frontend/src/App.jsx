@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css';
 import Game from './components/game/game.component';
-import { dotenv } from 'dotenv';
-
-dotenv.config();
 
 function App() {
   const [game, setGame] = useState(false)
@@ -14,26 +11,47 @@ function App() {
   const [points, setPoints] = useState(0)
   const [response, setResponse] = useState('')
 
-  const VITE_BACKEND_PORT = "";
-  const VITE_BACKEND_URI = process.env.VITE_BACKEND_URI;
+  const VITE_BACKEND_PORT = import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : "";
+  const VITE_BACKEND_URI = import.meta.env.DEV ? import.meta.env.VITE_BACKEND_URI : process.env.VITE_BACKEND_URI;
 
   const fetchQuote = async () => {
-    const res = await fetch(VITE_BACKEND_URI + VITE_BACKEND_PORT + "/api/quote")
-    const data = await res.json()
-    setQuote(data)
+    try {
+      const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/quote`);
+      if(!res.ok){
+        throw new Error('Network response was not ok');
+      }
+      const data = await res.json()
+      setQuote(data)
+    } catch (error) {
+      console.error('There has been a problem with your fetch operation:', error);
+    }
   }
 
   const fetchCharacter = async ( alias ) => {
     if(!alias) return;
-    const res = await fetch(VITE_BACKEND_URI + VITE_BACKEND_PORT + `/api/character/${alias}`)
-    const data = await res.json()
-    setCharacter(data)
+    try {
+      const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/character/${alias}`)
+      if(!res.ok){
+        throw new Error('Network response was not ok');
+      }
+      const data = await res.json()
+      setCharacter(data)
+    } catch (error) {
+      console.error('There has been a problem with your fetch operation:', error);
+    }
   }
 
   const fetchCharacters = async () => {
-    const res = await fetch(VITE_BACKEND_URI + VITE_BACKEND_PORT + "/api/characters/4")
-    const data = await res.json()
-    setCharacters(data)
+    try {
+      const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/characters/4`)
+      if(!res.ok){
+        throw new Error('Network response was not ok');
+      }
+      const data = await res.json()
+      setCharacters(data)
+    } catch (error) {
+      console.error('There has been a problem with your fetch operation:', error);
+    }
   }
 
   useEffect(() => {
