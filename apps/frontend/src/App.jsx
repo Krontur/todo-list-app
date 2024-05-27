@@ -13,6 +13,8 @@ function App() {
 
   const VITE_BACKEND_PORT = import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : "";
   const VITE_BACKEND_URI = import.meta.env.DEV ? import.meta.env.VITE_BACKEND_URI : process.env.BACKEND_URI;
+  console.log(process.env.BACKEND_URI)
+  console.log(import.meta.env.VITE_BACKEND_URI)
 
   const fetchQuote = async () => {
     try {
