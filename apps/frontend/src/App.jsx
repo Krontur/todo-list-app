@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react'
 import './App.css';
 import Game from './components/game/game.component';
+import { dotenv } from 'dotenv';
+
+dotenv.config();
 
 function App() {
   const [game, setGame] = useState(false)
