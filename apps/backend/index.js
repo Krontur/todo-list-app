@@ -19,19 +19,19 @@ const app = express();
 app.use(cors());
 app.use(json());
 
-// Connect to the database
-connect(process.env.MONGO_URI)
-.then(() => console.log('Conectado a MongoDB'))
-.then(() => { loadQuotes() })
-.then(() => { loadCharacters() })
-.catch(err => console.log(err));
-
 app.use('/api', quoteRoutes);
 app.use('/api', characterRoutes);
 
 app.get('/', (req, res) => {
     res.send('Welcome to my game \"Who said that!?\"');
 });
+
+// Connect to the database
+connect(process.env.MONGO_URI, {dbName: 'prod'})
+.then(() => console.log('Conectado a MongoDB'))
+.then(() => { loadQuotes() })
+.then(() => { loadCharacters() })
+.catch(err => console.log(err));
 
 // Define the port to listen on
 const OUT_PORT = process.env.OUT_PORT || 5000;
