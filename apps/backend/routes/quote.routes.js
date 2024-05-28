@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAllQuotes, createQuote, updateQuote, deleteQuote, getRandomQuote } from '../controllers/quote.controller';
+import { getAllQuotes, createQuote, updateQuote, deleteQuote, getRandomQuote } from '../controllers/quote.controller.js';
 
 const router = Router();
 
