@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-import Quote from '../models/character.model.js';
+import Quote from '../models/character.model';
 
 async function loadCharacters(){
     try {

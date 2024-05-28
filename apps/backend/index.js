@@ -3,11 +3,11 @@ import { connect } from 'mongoose';
 import cors from 'cors';
 import { config } from 'dotenv';
 
-import quoteRoutes from './routes/quote.routes.js';
-import characterRoutes from './routes/character.routes.js';
+import quoteRoutes from './routes/quote.routes';
+import characterRoutes from './routes/character.routes';
 
-import loadQuotes from './scripts/load.quotes.js';
-import loadCharacters from './scripts/load.characters.js';
+import loadQuotes from './scripts/load.quotes';
+import loadCharacters from './scripts/load.characters';
 
 // Enviroment
 config();

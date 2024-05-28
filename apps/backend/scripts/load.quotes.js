@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-import { deleteMany, insertMany } from '../models/quote.model.js';
+import { deleteMany, insertMany } from '../models/quote.model';
 
 async function loadQoutes(){
     try {

@@ -1,4 +1,4 @@
-import Quote from '../models/quote.model.js';
+import Quote from '../models/quote.model';
 
 export async function getAllQuotes(req, res) {
     try {
