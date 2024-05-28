@@ -117,7 +117,7 @@ function App() {
         <div className='game'>
           { game && 
             <div>
-              { loading && <div className='loader'></div>}
+              { loading && <span className='loader'></span>}
               { !loading &&
               <Game
                 quote={quote}
