@@ -9,15 +9,6 @@
         "imagen": "Abraham_Simpson.png"
     },
     {
-        "alias": "Alex Withney",
-        "edad": "8",
-        "nombre": "Alex Alexandra Withney",
-        "ocupación": "Estudiante",
-        "primera": "Lard of the Dance",
-        "voz": "Lisa_Kudrow",
-        "imagen": "Alex_Alexandra_Withney.png"
-    },
-    {
         "alias": "Apu Nahasapeemapetilon",
         "edad": "37",
         "nombre": "Apu Nahasapeemapetilon",
@@ -43,15 +34,6 @@
         "primera": null,
         "voz": "Nancy_Cartwright",
         "imagen": "Bart_Simpson.png"
-    },
-    {
-        "alias": "Bola de nieve",
-        "edad": null,
-        "nombre": "Bola de nieve",
-        "ocupación": null,
-        "primera": "Bart Gets Hit By A Car",
-        "voz": null,
-        "imagen": "Bola_de_nieve.png"
     },
     {
         "alias": "Carl Carlson",
@@ -108,13 +90,31 @@
         "imagen": "Duffman.png"
     },
     {
-        "alias": "Eddie y Lou",
+        "alias": "Eddie",
         "edad": null,
         "nombre": "Eddie",
         "ocupación": "Oficial de policía",
         "primera": "There's No Disgrace Like Home",
         "voz": "Hank_Azaria",
         "imagen": "Eddie.png"
+    },
+    {
+        "alias": "Kearney Zzyzwicz",
+        "edad": null,
+        "nombre": "Kearney Zzyzwicz",
+        "ocupación": "Bravucon de la Escuela Primaria de Springfield",
+        "primera": "The Telltale Head",
+        "voz": null,
+        "imagen": "Kearney_Zzyzwicz.png"
+    },
+    {
+        "alias": "Lou",
+        "edad": null,
+        "nombre": "Lou",
+        "ocupación": "Oficial de policía",
+        "primera": "There's No Disgrace Like Home",
+        "voz": "Hank_Azaria",
+        "imagen": "Lou.png"
     },
     {
         "alias": "Edna Krabappel",
@@ -153,15 +153,6 @@
         "imagen": "Hans_Moleman.png"
     },
     {
-        "alias": "Herb Powell",
-        "edad": null,
-        "nombre": "Herbert Herb Anthony Powell",
-        "ocupación": "Empresario",
-        "primera": "Oh_Brother,_Where_Art_Thou%3F",
-        "voz": null,
-        "imagen": "Herbert_Herb_Anthony_Powell.png"
-    },
-    {
         "alias": "Homer Simpson",
         "edad": "38",
         "nombre": "Homer Jay Simpson",
@@ -178,6 +169,15 @@
         "primera": "The Telltale Head",
         "voz": "Pamela Hayden",
         "imagen": "Jimbo_Jones.png"
+    },
+    {
+        "alias": "Melvin Van Horne",
+        "edad": "14",
+        "nombre": "Actor Secundario Mel",
+        "ocupación": "Estudiante",
+        "primera": "The Telltale Head",
+        "voz": "Pamela Hayden",
+        "imagen": "Melvin_Van_Horne.png"
     },
     {
         "alias": "Joe Quimby",
@@ -198,13 +198,22 @@
         "imagen": "Julius_Hibbert.png"
     },
     {
-        "alias": "Kang y Kodos",
+        "alias": "Kang",
         "edad": null,
         "nombre": "Kang",
         "ocupación": "Conquistadores",
         "primera": "Treehouse of Horror",
         "voz": "Harry_Shearer",
-        "imagen": "Kang.png"
+        "imagen": "kangkodos.png"
+    },
+    {
+        "alias": "Kodos",
+        "edad": null,
+        "nombre": "Kodos",
+        "ocupación": "Conquistadores",
+        "primera": "Treehouse of Horror",
+        "voz": "Harry_Shearer",
+        "imagen": "kangkodos.png"
     },
     {
         "alias": "Kent Brockman",
@@ -227,11 +236,11 @@
     {
         "alias": "Lenny Leonard",
         "edad": "38",
-        "nombre": "Lenny Lenford",
+        "nombre": "Lenny Leonard",
         "ocupación": "Empleado de la planta de energía nuclear de Springfield",
         "primera": "Life on the Fast Lane.",
         "voz": "Harry_Shearer",
-        "imagen": "Lenny_Lenford.png"
+        "imagen": "Lenny_Leonard.png"
     },
     {
         "alias": "Lionel Hutz",
@@ -324,6 +333,15 @@
         "imagen": "Nedward_Ned_Flanders.png"
     },
     {
+        "alias": "Maude Flanders",
+        "edad": "60",
+        "nombre": "Maude Flanders",
+        "ocupación": "Vendedor del Leftorium",
+        "primera": "Simpsons Roasting on an Open Fire",
+        "voz": "Harry_Shearer",
+        "imagen": "Maude_Flanders.png"
+    },
+    {
         "alias": "Nelson Muntz",
         "edad": "11",
         "nombre": "Nelson Muntz",
@@ -369,15 +387,6 @@
         "imagen": "Radioactivo_Man.png"
     },
     {
-        "alias": "Rainier Wolfcastle",
-        "edad": null,
-        "nombre": "Rainier Wolfcastle",
-        "ocupación": "Actor",
-        "primera": "The Way We Was.",
-        "voz": "Harry_Shearer",
-        "imagen": "Rainier_Wolfcastle.png"
-    },
-    {
         "alias": "Ralph Wiggum",
         "edad": "8",
         "nombre": "Ralph Wiggum",
@@ -396,15 +405,6 @@
         "imagen": "Timothy_Lovejoy.png"
     },
     {
-        "alias": "Santa's Little Helper",
-        "edad": "8",
-        "nombre": "Pequeño ayudante de santa claus",
-        "ocupación": null,
-        "primera": "Simpsons Roasting on an Open Fire",
-        "voz": "Dan_Castellaneta",
-        "imagen": "Santa's_Little_Helper.png"
-    },
-    {
         "alias": "Seymour Skinner",
         "edad": "65",
         "nombre": "Seymour Skinner",
@@ -414,13 +414,31 @@
         "imagen": "Seymour_Skinner.png"
     },
     {
+        "alias": "Kirk Van Houten",
+        "edad": "65",
+        "nombre": "Kirk Van Houten",
+        "ocupación": "Puesto intermedio en la fábrica de galletas Southern Cracker",
+        "primera": "Bart's Friend Falls in Love",
+        "voz": "Harry_Shearer",
+        "imagen": "Kirk_Van_Houten.png"
+    },
+    {
         "alias": "Actor secundario Bob",
         "edad": null,
-        "nombre": "David L. G.",
+        "nombre": "Actor secundario Bob",
         "ocupación": "Actor secundario, homicida, ayudante de Krusty, alcalde.",
         "primera": "The Telltale Head",
         "voz": "Kelsey_Grammer",
         "imagen": "David_L._G..png"
+    },
+    {
+        "alias": "Capitan Horatio McCallister",
+        "edad": null,
+        "nombre": "Capitan McCallister",
+        "ocupación": "Capitán de barco pesquero.",
+        "primera": "New Kid on the Block",
+        "voz": "Kelsey_Grammer",
+        "imagen": "Capitan_Horatio_McCallister.png"
     },
     {
         "alias": "Troy McClure",
