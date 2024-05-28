@@ -10,6 +10,7 @@ function App() {
   const [characters, setCharacters] = useState([])
   const [points, setPoints] = useState(0)
   const [response, setResponse] = useState('')
+  const [loading, setLoading] = useState(false);
 
   const VITE_BACKEND_PORT = import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : "";
   const VITE_BACKEND_URI = import.meta.env.VITE_BACKEND_URI
@@ -17,6 +18,7 @@ function App() {
   console.log(import.meta.env.VITE_BACKEND_URI)
 
   const fetchQuote = async () => {
+    setLoading(true)
     try {
       const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/quote`);
       if(!res.ok){
@@ -30,6 +32,7 @@ function App() {
   }
 
   const fetchCharacter = async ( alias ) => {
+    setLoading(true)
     if(!alias) return;
     try {
       const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/character/${alias}`)
@@ -44,6 +47,7 @@ function App() {
   }
 
   const fetchCharacters = async () => {
+    setLoading(true)
     try {
       const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/characters/4`)
       if(!res.ok){
@@ -75,6 +79,7 @@ function App() {
       console.log(charactersCopy)
       setCharacters(charactersCopy);
     }
+    setLoading(false);
   }, [character])
 
   const handleOnResponse = (alias) => {
@@ -112,11 +117,13 @@ function App() {
         <div className='game'>
           { game && 
             <div>
+              { loading && <div className='loader'></div>}
+              { !loading &&
               <Game
                 quote={quote}
                 characters = {characters}
                 onResponse = {handleOnResponse}
-              />
+              /> }
             </div>
           } 
         </div>
