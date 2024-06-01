@@ -12,10 +12,8 @@ function App() {
   const [response, setResponse] = useState('')
   const [loading, setLoading] = useState(false);
 
-  const VITE_BACKEND_PORT = import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : "";
+  const VITE_BACKEND_PORT = /*import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : */"";
   const VITE_BACKEND_URI = import.meta.env.VITE_BACKEND_URI
-
-  console.log(import.meta.env.VITE_BACKEND_URI)
 
   const fetchQuote = async () => {
     setLoading(true)
@@ -32,8 +30,8 @@ function App() {
   }
 
   const fetchCharacter = async ( alias ) => {
-    setLoading(true)
     if(!alias) return;
+    setLoading(true)
     try {
       const res = await fetch(`${VITE_BACKEND_URI}${VITE_BACKEND_PORT}/api/character/${alias}`)
       if(!res.ok){
@@ -61,11 +59,6 @@ function App() {
   }
 
   useEffect(() => {
-    fetchQuote()
-    fetchCharacters()
-}, [])
-
-  useEffect(() => {
     if(quote.character){
       fetchCharacter(quote.character)
     }  
@@ -76,7 +69,6 @@ function App() {
       const random = Math.floor(Math.random() * 4);
       const charactersCopy =  [...characters];
       charactersCopy[random] = character;
-      console.log(charactersCopy)
       setCharacters(charactersCopy);
     }
     setLoading(false);
@@ -102,6 +94,8 @@ function App() {
         <button onClick={() => {
           setGame(true);
           setPoints(0);
+          fetchQuote();
+          fetchCharacters();
         }}>
           START
         </button>
