@@ -22,7 +22,7 @@
         "edad": "40",
         "nombre": "Barney Gumble",
         "ocupación": "Piloto de helicóptero, conductor de quitanieves, astronauta",
-        "primera": "«Simpsons Roasting on an Open Fire: The Simpson's Christmas Special»",
+        "primera": "Simpsons Roasting on an Open Fire: The Simpson's Christmas Special",
         "voz": "Dan_Castellaneta",
         "imagen": "Barney_Gumble.png"
     },
@@ -58,7 +58,7 @@
         "edad": "33",
         "nombre": "Edna Krabappel",
         "ocupación": "Profesora en la Escuela Primaria de Springfield.",
-        "primera": "«Bart the Genius»",
+        "primera": "Bart the Genius",
         "voz": "Marcia_Wallace",
         "imagen": "Edna_Krabappel.png"
     },
@@ -70,6 +70,15 @@
         "primera": "Bart el temerario",
         "voz": "Harry_Shearer",
         "imagen": "Julius_Hibbert.png"
+    },
+    {
+        "alias": "Doctor Nick Riviera",
+        "edad": null,
+        "nombre": "Doctor Nick Riviera",
+        "ocupación": "Médico",
+        "primera": "Bart Gets Hit By A Car",
+        "voz": "Juan Antonio Arroyo",
+        "imagen": "Dr._Nick_Riviera.png"
     },
     {
         "alias": "Kent Brockman",
@@ -137,11 +146,20 @@
     {
         "alias": "Ned Flanders",
         "edad": "60",
-        "nombre": "Nedward «Ned» Flanders",
+        "nombre": "Nedward Ned Flanders",
         "ocupación": "Vendedor del Leftorium",
         "primera": "Simpsons Roasting on an Open Fire",
         "voz": "Harry_Shearer",
         "imagen": "Ned_Flanders.png"
+    },
+    {
+        "alias": "Patty y Selma",
+        "edad": "45",
+        "nombre": "Patty y Selma Bouvier",
+        "ocupación": "Departamento de Tráfico de Springfield",
+        "primera": "Simpsons Roasting on an Open Fire",
+        "voz": "Julie_Kavner",
+        "imagen": "Selma_Bouvier.png"
     },
     {
         "alias": "Ralph Wiggum",

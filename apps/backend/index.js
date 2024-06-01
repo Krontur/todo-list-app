@@ -29,8 +29,6 @@ app.get('/', (req, res) => {
 // Connect to the database
 connect(process.env.MONGO_URI, {dbName: 'prod'})
 .then(() => console.log('Conectado a MongoDB'))
-.then(() => { loadQuotes() })
-.then(() => { loadCharacters() })
 .catch(err => console.log(err));
 
 // Define the port to listen on
