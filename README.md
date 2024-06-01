@@ -1,36 +1,43 @@
-# Turborepo starter
+# Proyecto: "Who Said that?"
 
-This is an official starter Turborepo.
+Descripción del proyecto: Un juego interactivo en el que los jugadores deben adivinar quién ha dicho una frase célebre. La versión inicial del juego incluye dos aplicaciones Next.js: una API que proporciona las frases y los personajes de la serie (en este caso los simpsons) y el frontend con el que interactua el usuario con el navegador, seleccionando el personaje que cree que ha dicho esa frase.
 
-## Using this example
+## Características:
 
-Run the following command:
+Una API que devuelve frases célebres y los personajes que las dijeron.
+Dos aplicaciones: backend (express.js) y frontend (vite.js)
+Frontend: Muestra las frases célebres y permite a los jugadores votar por quién creen que la dijo
+Backend: Le proporciona al frontend mediante una API las frases y los posibles personajes que las podrían haber dicho.
 
-```sh
-npx create-turbo@latest
-```
+Utiliza ESLint y Prettier para mantener el código limpio y organizado
+Utiliza Turborepo para gestionar el monorepo y habilitar la caché remota
 
-## What's inside?
+### Funcionalidades:
 
-This Turborepo includes the following packages/apps:
+Los jugadores pueden votar por quién creen que dijo la frase.
+La aplicación muestra la respuesta correcta después de que los jugadores voten.
 
-### Apps and Packages
+### Requisitos:
+Node.js y npm o yarn instalados en la máquina local
+Crear un nuevo proyecto Turborepo con npx create-turbo@latest
+Clonar el repositorio del proyecto y ejecutar pnpm build y pnpm dev para construir y ejecutar la aplicación
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+### Estructura del proyecto:
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+docs: Aplicación Next.js para mostrar las frases célebres
+web: Aplicación Next.js para mostrar los personajes que pudieron haber dicho la frase
+@repo/ui: Biblioteca de componentes React compartida por ambas aplicaciones
+@repo/eslint-config: Configuración de ESLint para el proyecto
+@repo/typescript-config: Configuración de TypeScript para el proyecto
 
-### Utilities
+### API:
+La API devuelve frases célebres y los personajes que las dijeron
+La API se encuentra en localhost:5000/api/characters
+La API se encuentra en localhost:5000/api/quotes
 
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+### Desarrollo:
+Para desarrollar la aplicación, ejecutar pnpm dev en la raíz del proyecto
+Para construir la aplicación, ejecutar pnpm build en la raíz del proyecto
 
 ### Build
 
@@ -68,14 +75,3 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 ```
 npx turbo link
 ```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)

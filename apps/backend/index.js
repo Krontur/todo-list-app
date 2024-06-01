@@ -6,11 +6,19 @@ import { config } from 'dotenv';
 import quoteRoutes from './routes/quote.routes';
 import characterRoutes from './routes/character.routes';
 
-import loadQuotes from './scripts/load.quotes';
+import loadQuoutes from './scripts/load.quotes';
 import loadCharacters from './scripts/load.characters';
+
+const dbName = '';
 
 // Enviroment
 config();
+
+if(process.env.DEV){
+    dbName = "dev"
+} else {
+    dbName = "prod"
+}
 
 // Create a server object
 
@@ -27,8 +35,10 @@ app.get('/', (req, res) => {
 });
 
 // Connect to the database
-connect(process.env.MONGO_URI, {dbName: 'prod'})
+connect(process.env.MONGO_URI, {dbName: `${dbName}`})
 .then(() => console.log('Conectado a MongoDB'))
+.then(() => dbName == 'dev' ? loadQuoutes() : null)
+.then(() => dbName == 'dev' ? loadCharacters() : null)
 .catch(err => console.log(err));
 
 // Define the port to listen on

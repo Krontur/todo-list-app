@@ -12,7 +12,7 @@ function App() {
   const [response, setResponse] = useState('')
   const [loading, setLoading] = useState(false);
 
-  const VITE_BACKEND_PORT = /*import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : */"";
+  const VITE_BACKEND_PORT = import.meta.env.DEV ? `:${import.meta.env.VITE_BACKEND_PORT}` : "";
   const VITE_BACKEND_URI = import.meta.env.VITE_BACKEND_URI
 
   const fetchQuote = async () => {
